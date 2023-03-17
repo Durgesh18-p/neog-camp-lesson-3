@@ -3,3 +3,13 @@
 body {
     font-family: 'PT Serif', serif;
 }
+
+.container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.fluid-container {
+    max-width: 1000px;
+    /* margin:auto; */
+}
