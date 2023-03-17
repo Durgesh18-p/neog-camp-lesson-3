@@ -1,11 +1,5 @@
-body{
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
-#heading{
-    color:blue;
-}
-
-.para{
-    color:greenyellow
+body {
+    font-family: 'PT Serif', serif;
 }
