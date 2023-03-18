@@ -9,25 +9,25 @@
 </head>
 <body>
 <!-- <body style="background-color:powderblue;"> -->
-    <h1 id="heading">Wlecome to my libarry.</h1> <h1>Wlecome to my libarry.</h1>
+    <h1>Wlecome to my libarry.</h1> <h1>Wlecome to my libarry.</h1>
     <p>Here I am learning to create a component library so that I can store all of my projects together.</p>
     <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second lagrest heading</h2>
-    <p class="para">This is paragraph anormal text</p>
+    <p>This is paragraph anormal text</p>
     <small>This is relatively smaller text</small>
     <hr>
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div class="container fluid-container">This is the fluid container and it will go till the end of the container.</div>
+    <div class="container container-fluid">This is the fluid container and it will go till the end of the container.</div>
     <h3>center container</h3>
     <div class="container container-center">This is a centered container and it will go till the specified width.</div>
     <hr>
 
     <h2 title="displays the content as it is">@pre</h2>
-    <pre style="font-family:Arial, Helvetica, sans-serif">
+    <pre>
         Five little monkeys jumping on the bed , 
         one fell off and bumped his head , 
         mama called the doctor , doctor said , 
@@ -39,23 +39,25 @@
 
 
     <h2 >@link</h2>
-    <a class="link primary-link" href="https://www.google.com/">Primary Link</a>
-    <a class="link secondary-link" href="https://www.google.com/">Secondary Link</a>
+    
+        <a class="link link-primary" href="https://www.google.com/">Primary Link</a>
+        <a class="link link-secondary" href="https://www.google.com/">Secondary Link</a>
+    
     <hr>
 
     <h2>Lists in HTML</h2>
     <h3>unordered list</h3>
-    <ul class = "inline-bullet">
-        <li>Item One</li> 
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <ul class="non-bullet">
+        <li class="list-item-inline">Item One</li> 
+        <li class="list-item-inline">Item Two</li>
+        <li class="list-item-inline">Item Three</li>
     </ul>
 
-    <h3 >Unordered list</h3>
-    <ul>
-        <li class="list-item">Item one</li>
-        <li class="list-item">Item two</li>
-        <li class="list-item">Item three</li>
+    <h3>Unordered list</h3>
+    <ul class="non-bullet">
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item three</li>
     </ul>
 
     <h3>Reversing ordered list</h3>
@@ -68,18 +70,18 @@
     <hr>
     
     <h2>@nav</h2>
-    It basically tells browser that my components are important to navigate through the webpage.
-    <nav>
-        <div>My Brand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    
+    <nav class="navigation container">
+        <div class="nav-brand">My Brand</div>
+        <ul class="unordered non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active" ref="/">Home</a>
             </li>
-            <li>
-                <a href="/">About us</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About us</a>
             </li>
-            <li>
-                <a href="/">Log in</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Log in</a>
             </li>
         </ul>
     </nav>
@@ -94,7 +96,7 @@
     <h2>@section</h2>
     <section>
         <h3>white section</h3>
-        <p style="color: blue;">this will have white background</p>
+        <p>this will have white background</p>
     </section>
     <section>
         <h3>off white section</h3>
