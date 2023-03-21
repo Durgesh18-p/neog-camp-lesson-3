@@ -115,7 +115,7 @@ hr {
 /* footer */
 .footer {
     background-color:var(--primary-color);
-    padding: 1.5rem;
+    padding: 1  rem;
     color: white;
     text-align: center;
     border-bottom-left-radius: 1.5rem;
